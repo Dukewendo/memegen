@@ -1,0 +1,52 @@
+.page--form {
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    ". first second . "
+    ". button button ."
+    ". image image .";
+}
+
+.first--input {
+  margin-top: 30px;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  justify-items: stretch;
+  grid-area: first;
+}
+
+.form--first {
+  width: 100%;
+  height: 30px;
+}
+
+.second--input {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 9px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  justify-items: stretch;
+  grid-area: second;
+}
+.form--second {
+  width: 100%;
+  height: 30px;
+}
+
+.form--button {
+  border-radius: 5px;
+  height: 30px;
+  grid-area: button;
+
+  background: linear-gradient(90deg, #672290 1.18%, #a626d3 100%);
+}
+
+.meme--image {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-area: image;
+}

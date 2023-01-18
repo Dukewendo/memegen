@@ -1,0 +1,11 @@
+.page--header {
+  display: flex;
+  gap: 20px;
+  height: 65px;
+  left: 0px;
+  top: 0px;
+  color: white;
+  padding: 20px;
+
+  background: linear-gradient(90deg, #672290 1.18%, #a626d3 100%);
+}
